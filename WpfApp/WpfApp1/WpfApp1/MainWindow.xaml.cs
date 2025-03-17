@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApp1.Models;
+using WpfApp1.ViewModels;
 
 namespace WpfApp1;
 
@@ -17,9 +18,16 @@ namespace WpfApp1;
 /// </summary>
 public partial class MainWindow : Window
 {
+
+    MainViewModel mainViewModel;
+
+   
     public MainWindow()
     {
         InitializeComponent();
+        mainViewModel = new MainViewModel();
+        mainViewModel.ProgressValue = 30;
+        DataContext = mainViewModel;
     }
 
     private void btnTest1_Click(object sender, RoutedEventArgs e)
@@ -49,6 +57,9 @@ public partial class MainWindow : Window
         myList1.Add(userB);
 
         listView1.ItemsSource = myList1;
+
+
+        mainViewModel.ProgressValue = 100;
 
     }
 }

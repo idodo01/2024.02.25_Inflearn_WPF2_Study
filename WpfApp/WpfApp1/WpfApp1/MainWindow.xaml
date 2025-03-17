@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="800">
     <Window.Resources>
         <Style x:Key="testStyle">
             <Setter Property="Label.Background">
@@ -16,19 +16,43 @@
                     </LinearGradientBrush>
                 </Setter.Value>
             </Setter>
+            <Style.Triggers>
+                <!-- 1. 버튼 클릭시, 글자색 파랗게 됨-->
+                <!--<Trigger Property="Control.IsMouseCaptured" Value="True">
+                    <Setter Property="Control.Foreground" Value="Blue"></Setter>
+                </Trigger>-->
+
+                <!-- 2. 체크박스 체크시, 글자색 빨갛게 되고 버튼을 작동 못하게 됨-->
+                <!--<DataTrigger Binding="{Binding ElementName=checkBox1,Path=IsChecked}" Value="True">
+                    <Setter Property="Control.Foreground" Value="Red"></Setter>
+                    <Setter Property="Control.IsEnabled" Value="False"></Setter>
+                </DataTrigger>-->
+
+                <!-- 3. 프로그레스 바가 100이 되면, style 적용된 대상이 숨겨짐 -->
+                <DataTrigger Binding="{Binding ElementName=progressBar1, Path=Value}" Value="100">
+                    <Setter Property="Control.Visibility" Value="Hidden"></Setter>
+                </DataTrigger>
+                
+                
+            </Style.Triggers>
         </Style>
+
     </Window.Resources>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
         <Label x:Name="labelTest1" Content="MyLabel" HorizontalAlignment="Left" Margin="79,76,0,0" VerticalAlignment="Top" Height="36" Width="86" FontSize="18" Style="{StaticResource testStyle}" />
 
-        <Button x:Name="btnTest1" Content="Button" HorizontalAlignment="Right" Margin="0,60,100,0" VerticalAlignment="Top" Click="btnTest1_Click"/>
-        <CheckBox x:Name="checkBox1" Content="체크박스입니다" HorizontalAlignment="Left" Margin="79,176,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Button x:Name="btnTest1" Content="Button" HorizontalAlignment="Right" Margin="0,60,100,0" VerticalAlignment="Top" Click="btnTest1_Click" Style="{StaticResource testStyle}"/>
+        <CheckBox x:Name="checkBox1" Content="체크박스입니다" HorizontalAlignment="Left" Margin="79,176,0,0" VerticalAlignment="Top" IsChecked="False"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="79,230,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="79,250,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="79,270,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="79,313,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        
-        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="290,55,156,121" x:Name="listView1">
+
+        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="290,55,156,53" x:Name="listView1">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="유저사진">
@@ -43,6 +67,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Label  Style="{StaticResource testStyle}" Content="스타일을 등록해두면, 이렇게 바로 사용 가능!" Margin="79,353,453,48" />
+        <Label  Style="{StaticResource testStyle}" Content="스타일을 등록해두면, 이렇게 바로 사용 가능!" Margin="27,354,345,177" Grid.RowSpan="2" />
+        <ProgressBar x:Name="progressBar1"  HorizontalAlignment="Left" Height="29" Margin="27,71,0,0" Grid.Row="1" VerticalAlignment="Top" Width="252" Value="{Binding ProgressValue}"/>
     </Grid>
 </Window>

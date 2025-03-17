@@ -11,16 +11,24 @@
       "RelativeMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|c:\\users\\idodo\\documents\\study2_c\\\uAC1C\uBC1C\uC790 park\\wpfapp\\wpfapp1\\wpfapp1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|c:\\users\\idodo\\documents\\study2_c\\\uAC1C\uBC1C\uC790 park\\wpfapp\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|c:\\users\\idodo\\documents\\study2_c\\\uAC1C\uBC1C\uC790 park\\wpfapp\\wpfapp1\\wpfapp1\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|c:\\users\\idodo\\documents\\study2_c\\\uAC1C\uBC1C\uC790 park\\wpfapp\\wpfapp1\\wpfapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|c:\\users\\idodo\\documents\\study2_c\\\uAC1C\uBC1C\uC790 park\\wpfapp\\wpfapp1\\wpfapp1\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|c:\\users\\idodo\\documents\\study2_c\\\uAC1C\uBC1C\uC790 park\\wpfapp\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82FE05BF-A8D3-4B14-8B3D-15A7242432B8}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:18:39.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WpfApp1",
+              "DocumentMoniker": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
+              "ToolTip": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T12:17:43.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\Models\\User.cs",
               "RelativeDocumentMoniker": "WpfApp1\\Models\\User.cs",
@@ -42,7 +76,8 @@
               "RelativeToolTip": "WpfApp1\\Models\\User.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:23:49.217Z"
+              "WhenOpened": "2025-03-16T00:23:49.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -53,18 +88,20 @@
               "ToolTip": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\Properties\\Resources.resx",
               "RelativeToolTip": "WpfApp1\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-16T00:50:37.23Z"
+              "WhenOpened": "2025-03-16T00:50:37.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WpfApp1",
               "DocumentMoniker": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
               "ToolTip": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-16T00:50:07.263Z"
+              "WhenOpened": "2025-03-16T00:50:07.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -86,7 +123,7 @@
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\idodo\\Documents\\Study2_C\\\uAC1C\uBC1C\uC790 Park\\WpfApp\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T23:58:48.953Z",
               "EditorCaption": ""

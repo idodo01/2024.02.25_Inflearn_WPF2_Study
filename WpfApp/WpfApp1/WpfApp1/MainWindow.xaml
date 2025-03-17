@@ -6,15 +6,29 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="testStyle">
+            <Setter Property="Label.Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.28">
+                        <GradientStop Color="White"/>
+                        <GradientStop Color="#FFB8FB2D" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
-        <Label x:Name="labelTest1" Content="MyLabel" HorizontalAlignment="Left" Margin="79,76,0,0" VerticalAlignment="Top" Height="37" Width="232" FontSize="18"/>
-        <Button x:Name="btnTest1" Content="Button" HorizontalAlignment="Left" Margin="79,135,0,0" VerticalAlignment="Top" Click="btnTest1_Click"/>
+        <Label x:Name="labelTest1" Content="MyLabel" HorizontalAlignment="Left" Margin="79,76,0,0" VerticalAlignment="Top" Height="36" Width="86" FontSize="18" Style="{StaticResource testStyle}" />
+
+        <Button x:Name="btnTest1" Content="Button" HorizontalAlignment="Right" Margin="0,60,100,0" VerticalAlignment="Top" Click="btnTest1_Click"/>
         <CheckBox x:Name="checkBox1" Content="체크박스입니다" HorizontalAlignment="Left" Margin="79,176,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="79,230,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="79,250,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="79,270,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="79,313,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="290,55,156,121" x:Name="listView1" SelectionChanged="listView1_SelectionChanged">
+        
+        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="290,55,156,121" x:Name="listView1">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="유저사진">
@@ -29,6 +43,6 @@
                 </GridView>
             </ListView.View>
         </ListView>
-
+        <Label  Style="{StaticResource testStyle}" Content="스타일을 등록해두면, 이렇게 바로 사용 가능!" Margin="79,353,453,48" />
     </Grid>
 </Window>
